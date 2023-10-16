@@ -1,0 +1,633 @@
+/* THIS IS UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+/* THIS IS FOR HEADER  */
+.navigation-menu {
+    margin-top: 20px;
+}
+
+.main-logo {
+    width: 140px;
+}
+
+.navigation-menu nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+    font-size: bold;
+}
+
+.navigation li a:hover {
+    border-radius: 50px;
+    background: #fad9bf;
+    color: #ff9b34;
+
+}
+
+.black-login-btn {
+    padding: 20px;
+    color: white;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------ */
+
+/* SECTION START FROM HERE */
+.container {
+    display: flex;
+    background: #FFF7F1;
+    padding-top: 20px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading p {
+    font-size: 20px;
+}
+
+.orange {
+    color: #ff9b34;
+}
+
+/* -------------------------------------- */
+/* THIS IS FOR FIRST PAGE BUTTONS */
+
+.first-page-button {
+    padding: 20px;
+}
+
+.get-start {
+    background-color: #ff9b34;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contact-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------- */
+/*  PAYMENTS METHOD SECTION START FROM HERE  */
+
+
+.paymentz-main-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 30px 0 30px;
+    padding: 50px 10px 10px 30px;
+}
+
+.paymentz-box {
+    padding: 10px;
+
+}
+
+.paymentz-box h5 {
+    font-size: 18px;
+}
+
+.paymentz-box p {
+    padding-top: 25px;
+    text-wrap: wrap;
+}
+
+.icons {
+    max-width: 30%;
+}
+
+/* contact-form START FROM HERE */
+.contact-form {
+    background-color: #83390026;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-left-box {
+    color: white;
+    background-color: black;
+    margin: 50px;
+    padding: 60px 50px 60px 50px;
+}
+
+.contact-form-upper-section {
+    display: flex;
+}
+
+.contact-heading {
+    padding: 25px;
+}
+
+.contact-para {
+    padding: 15px 25px;
+}
+
+.conatact-btn {
+    padding: 25px;
+}
+
+.conatact-btn button {
+    padding: 15PX;
+    color: white;
+    background-color: #ff9b34;
+    border: none;
+    border-radius: 15px;
+
+}
+
+/* THIS IS RIGTH SIDE OF THE CONTACT FORM */
+.common-contact-form-setup {
+    padding: 10px;
+}
+
+.name input {
+    padding: 15px;
+    border: none;
+    margin-right: 10px;
+}
+
+.email input {
+    padding: 15px;
+    border: none;
+}
+
+.contact-address {
+    width: 425px;
+    height: 100px;
+    border: none;
+}
+
+
+.button-send-msg {
+    padding: 15px;
+}
+
+.btn-send-msg {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* ERROR MSG FROM CONTACT-US BOX */
+.error-msg {
+    color: red;
+}
+
+/* ------------------------------ */
+
+
+
+/*     <!-- OUR SOLUTION SECTION START FROM HERE --> */
+/* SLIDER CSS */
+.digital-trascation {
+    padding: 80px 127px 80px 143px;
+}
+
+.digital-tras-left {
+    display: flex;
+    justify-content: center;
+}
+
+.digital-tras-rigth h2 {
+    padding: 10px;
+    font-size: 36px;
+}
+
+.digital-tras-rigth p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.img-11 {
+    width: 440px;
+    margin-right: 40px;
+}
+/* THIS IS FOR SLIDER DOTS */
+.slick-dots li button:before {
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+}
+/* -------------------------- */
+
+/* ----------------------------------------------------- */
+.main-our-solution {
+    background: #FFF7F1;
+    padding-bottom: 50px;
+}
+
+.our-solution-heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.our-solution-heading h2 {
+    font-size: 50px;
+}
+
+.our-solution-text {
+    text-align: center;
+}
+
+.our-solution-text p {
+    padding-top: 20px;
+    margin: 0 0 1.5rem;
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cards {
+    background-color: white;
+    color: black;
+    background-image: url("../assets/Solution-background.png");
+    margin: 50px 40px 15px 40px;
+    padding: 30px 30px 60px 30px;
+    border-radius: 10px;
+}
+
+.cards h4 {
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.cards p {
+    margin: 0 0 1.5rem;
+}
+
+/* THIS IS CLIENT LOGO SECTION */
+.client-logo {
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-evenly;
+    background-color: #131212;
+}
+
+/* ----------THIS IS FOR FOOTER SECTION-------- */
+.footer-main-container {
+    padding: 70px 10px 10px 10px;
+    background-color: black;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* FOOTER LOGO WITH PARAGRAPH */
+.footer-firstbox {
+    margin: 0 auto;
+}
+
+.footer-para P {
+    color: white;
+}
+
+/* FOOTER  POLICY */
+.footer-policy-heading h5 {
+    color: #ff9b34;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-policy-list li {
+    padding: 5px;
+}
+
+.footer-policy-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER GET-IN-TOUCH */
+.footer-get-in-touch-heading h5 {
+    color: #ff9b34;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-email {
+    display: flex;
+}
+
+.footer-email p {
+    color: white;
+}
+
+.footer-address {
+    display: flex;
+}
+
+.footer-address p {
+    color: white;
+}
+
+.footer-ending {
+    padding: 50px 30px 20px 30px;
+}
+
+.copy-rigth {
+    color: white;
+    padding: 20px;
+}
+
+/* --------------------------------------------- */
+
+
+/* THIS IS FORMOBILE VIEW MEDIA QUERY WITH 360PX */
+
+
+@media (min-width: 360px) and (max-width: 767px) {
+    .main-container {
+        width: 100%;
+    }
+
+    /* FIRST SECTION  */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading h1 {
+        text-align: center;
+    }
+
+    .heading p {
+        padding: 20px 5px 20px 20px;
+    }
+
+    .rigth-box {
+        padding: 0 30px 10px 30px;
+        text-align: center;
+    }
+
+    .rigth-box img {
+        max-width: 60%;
+        align-items: center;
+    }
+
+    /*  PAYMENTS METHOD SECTION */
+    .paymentz-main-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .paymentz-box {
+        text-align: center;
+    }
+
+    /* OUR SOLUTIONS CARDS */
+    .card-box {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* slider */
+    .digital-tras-left {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .digital-trascation {
+        padding: 50px;
+    }
+
+    .img-11 {
+        width: 200px;
+    }
+
+    .digital-tras-rigth h2 {
+        font-size: 15PX;
+    }
+
+    /* THIS IS FOR CONTACT US BOX */
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-left-box {
+        margin: 0px;
+    }
+
+    .contact-form-upper-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .contact-address {
+        width: 200px;
+    }
+
+    .right-contact-heading {
+        padding: 35px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    /* THIS IS FOOTER SECTION */
+    .client-logo {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+    }
+
+    /* FOOTER SECTION START FROM HERE */
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 30px 5px 20px 5px;
+    }
+
+    .footer-para {
+        text-wrap: wrap;
+    }
+
+    .footer-policy {
+        padding: 30px;
+    }
+
+    .footer-get-in-touch {
+        padding: 30px;
+    }
+
+    .copy-rigth {
+        font-size: 10px;
+    }
+}
+
+
+/* THIS IS FOR DEKSTOP VIEW */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-container {
+        width: 100%;
+    }
+
+    /* FIRST SECTION  */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading h1 {
+        text-align: center;
+    }
+
+    .heading p {
+        padding: 20px 5px 20px 20px;
+    }
+
+    .rigth-box {
+        padding: 0 30px 10px 30px;
+        text-align: center;
+    }
+
+    .rigth-box img {
+        max-width: 60%;
+        align-items: center;
+    }
+
+    /*  PAYMENTS METHOD SECTION */
+    .paymentz-main-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .paymentz-box {
+        text-align: center;
+    }
+
+    /* OUR SOLUTIONS CARDS */
+    .card-box {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* slider */
+    .digital-tras-left {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .digital-trascation {
+        padding: 50px;
+    }
+
+    .img-11 {
+        width: 500px;
+    }
+
+    .digital-tras-rigth h2 {
+        font-size: 25PX;
+    }
+
+    /* THIS IS FOR CONTACT US BOX */
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 40px 0;
+    }
+
+    .right-contact-heading {
+        padding: 35px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contact-left-box {
+        margin: 0px;
+    }
+
+    .contact-form-upper-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+
+    /* THIS IS FOOTER SECTION */
+    .client-logo {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+    }
+
+    /* FOOTER SECTION START FROM HERE */
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 30px 5px 20px 5px;
+    }
+
+    .footer-para {
+        text-wrap: wrap;
+    }
+
+    .footer-policy {
+        padding: 20PX 80px;
+    }
+
+    .footer-get-in-touch {
+        padding: 20PX 80px;
+    }
+
+    .copy-rigth {
+        font-size: 10px;
+    }
+}
