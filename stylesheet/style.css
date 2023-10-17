@@ -418,7 +418,7 @@
     .upper-side-mobileview {
         display: flex;
         justify-content: space-between;
-        padding: 0 10px 0 10px;
+        padding: 5px 10px 0 10px;
     }
 
     .navigation-menu {
@@ -453,15 +453,19 @@
     .menu li a {
         text-decoration: none;
         padding: 15px;
+        color: black;
     }
 
     /* -------------------------------------------- */
     .heading h1 {
         text-align: center;
+        padding: 15px 15PX 15px 15PX;
+        font-size: 40px;
+        margin: 10px 10px 10px 10px;
     }
 
     .heading p {
-        padding: 20px 5px 20px 20px;
+        padding: 20px 20px 20px 20px;
     }
 
     .rigth-box {
@@ -485,6 +489,9 @@
     }
 
     /* OUR SOLUTIONS CARDS */
+    .our-solution-text p{
+        padding:20px;
+    }
     .card-box {
         display: grid;
         grid-template-columns: auto;
