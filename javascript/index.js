@@ -16,3 +16,11 @@ function sendMessageButton(event) {
     }
 
 }
+
+$(document).ready(function(){
+        $('.menuToggle').hide();
+    $('.mobile-img-hambuggler').click(function(){
+        $('.menuToggle').toggle('slide');
+    })
+})
+

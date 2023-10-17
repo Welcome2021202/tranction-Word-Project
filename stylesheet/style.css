@@ -16,6 +16,11 @@
     margin-top: 20px;
 }
 
+/* HIDE MOBILE VIEW   */
+.mobile-menu {
+    display: none;
+}
+
 .main-logo {
     width: 140px;
 }
@@ -254,11 +259,13 @@
     width: 440px;
     margin-right: 40px;
 }
+
 /* THIS IS FOR SLIDER DOTS */
 .slick-dots li button:before {
     font-size: 50px;
     color: rgb(255, 166, 0);
 }
+
 /* -------------------------- */
 
 /* ----------------------------------------------------- */
@@ -402,6 +409,53 @@
         flex-direction: column;
     }
 
+    /* ------------mobile view------------------ */
+    /* THIS IS FOR MOBILE VIEW */
+    .mobile-menu {
+        display: block;
+    }
+
+    .upper-side-mobileview {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px 0 10px;
+    }
+
+    .navigation-menu {
+        display: none;
+    }
+
+    .mobile-img-logo {
+        width: 100px;
+    }
+
+    .mobile-img-hambuggler {
+        width: 50px;
+    }
+
+    /* MENU NAVIGATION MENU */
+    .menu li {
+        list-style: none;
+        border-radius: 35px;
+        padding: 10px 30px;
+    }
+
+    .menu li:hover {
+        background-color: #FFEDDF;
+        color: #ff8020;
+        border-color: #FFF1E7;
+    }
+
+    .menuToggle {
+        background-color: white;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    /* -------------------------------------------- */
     .heading h1 {
         text-align: center;
     }
@@ -495,6 +549,10 @@
         padding: 30px 5px 20px 5px;
     }
 
+    .footer-firstbox {
+        margin: 25px;
+    }
+
     .footer-para {
         text-wrap: wrap;
     }
@@ -511,6 +569,7 @@
         font-size: 10px;
     }
 }
+
 
 
 /* THIS IS FOR DEKSTOP VIEW */
@@ -600,7 +659,6 @@
         width: auto;
     }
 
-
     /* THIS IS FOOTER SECTION */
     .client-logo {
         display: grid;
@@ -617,6 +675,10 @@
 
     .footer-para {
         text-wrap: wrap;
+    }
+
+    .footer-firstbox {
+        margin: 85px;
     }
 
     .footer-policy {
